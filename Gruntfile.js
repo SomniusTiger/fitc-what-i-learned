@@ -46,9 +46,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('cachebreaker', function() {
-        grunt.file.write('sites/all/themes/aolrise/latest_static_asset_key.txt', (new Date).getTime());
-    });
-
     grunt.registerTask('default', ['clean', 'less', 'cssmin']);
 };

@@ -38,11 +38,11 @@
 
 // Colors
 
-@red:			hsla(358, 59%, 39%, 1);
-@white:		hsla(0, 0%, 97%, 1);
-@black:		hsla(0, 0%, 3%, 1);
+@pink:			hsla(331, 80%, 50%, 1);
+@white:			hsla(0, 0%, 97%, 1);
+@black:			hsla(0, 0%, 3%, 1);
 
-@light-red: lighten(@red, 20%);
+@light-pink: 	lighten(@pink, 20%);
 @grey:			lighten(@black, 20%);
 
 // Fonts
@@ -89,7 +89,7 @@ body {
 	background-color: @white;
 	color: @black;
 	text-align: left;
-	border-top: solid 2px @red;
+	border-top: solid 2px @pink;
 }
 
 h1, h2, h3, h4 {
@@ -118,10 +118,10 @@ ul li {
 }
 
 a {
-	color: @red;
+	color: @pink;
 
 	&:hover {
-		color: @light-red;
+		color: @light-pink;
 	}
 }
 
@@ -138,7 +138,7 @@ pre {
 }
 
 ::selection {
-	background-color: @light-red;
+	background-color: @light-pink;
 }
 
 ////////////
@@ -152,7 +152,7 @@ pre {
 // Text Modifiers
 
 .red-text {
-	color: @red;
+	color: @pink;
 }
 
 .italic {
@@ -212,22 +212,22 @@ pre {
 	padding: 0;
 
 	span {
-		background-color: @red;
+		background-color: @pink;
 	}
 }
 
 .navigate-left{
-	border-right-color: @red !important;
+	border-right-color: @pink !important;
 }
 
 .navigate-right{
-	border-left-color: @red !important;
+	border-left-color: @pink !important;
 }
 
 .navigate-up{
-	border-bottom-color: @red !important;
+	border-bottom-color: @pink !important;
 }
 
 .navigate-down{
-	border-top-color: @red !important;
+	border-top-color: @pink !important;
 }
