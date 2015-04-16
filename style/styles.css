@@ -1913,6 +1913,13 @@ pre {
 .img-fullwidth img {
   width: 100%;
 }
+ul.block,
+ol.block {
+  display: block;
+}
+ol.block {
+  margin-left: 2em;
+}
 .pink-text {
   color: #e6197c;
 }
