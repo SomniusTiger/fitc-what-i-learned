@@ -112,8 +112,8 @@
 
 				<section>
 					<ul>
-						<li class="italic small-list">The main takeaway</li>
-						<li>It's so easy to be negative about so many things, but it's more important and fulfilling to be positive instead.</li>
+						<li class="italic small-list">The Main Takeaway</li>
+						<li>It's so easy to be negative about so many things, but it's much more important and fulfilling to be positive instead.</li>
 					</ul>
 				</section>
 
@@ -121,12 +121,39 @@
 				<section>
 					<div class="text-center">
 						<div class="image-icon">
-							<img src="img/presenters/gavin_strange.jpg" alt=""/>
+							<img src="img/presenters/jonathan_mann.jpg" alt=""/>
 						</div>
-						<h1>Gavin Strange</h1>
+						<h1>Jonathan Mann</h1>
 						<h3 class="pink-text">Inspiration</h3>
-						<h3 class="italic">GRAFT, CRAFT and Being DAFT</h3>
+						<h3 class="italic">The Internet is Made of People</h3>
 					</div>
+				</section>
+
+				<section>
+					<ul>
+						<li class="italic small-list">Who is this dude?</li>
+						<li>Has been writing one song per day for the past ~2000 days</li>
+						<li>See his <a target="_blank" href="https://www.youtube.com/user/therockcookiebottom/">YouTube Channel</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<div class="video-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/cU1DdWjvvcs" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</section>
+
+				<section>
+					<div class="img-fullwidth">
+						<img src="http://cdn.iphonehacks.com/wp-content/uploads/2013/12/steve-jobs-dance.gif" alt=""/>
+					</div>
+				</section>
+
+				<section>
+					<ul>
+						<li class="italic small-list">The Main Takeaway</li>
+						<li>The power you have to make connections and make people feel something with your work is not to be underestimated.</li>
+					</ul>
 				</section>
 
 			</div>
@@ -135,6 +162,7 @@
 
 		<!-- JS Libraries -->
 		<script src="lib/jquery.min.js"></script>
+		<script src="lib/jquery.fitvids.js"></script>
 		<script src="lib/reveal/reveal.min.js"></script>
 		<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 		<script src="lib/prism/prism.js"></script>
@@ -152,6 +180,10 @@
 				// Transition style
 				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
+			});
+
+			$(function() {
+				$('.video-container').fitVids();
 			});
 
 		</script>

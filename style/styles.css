@@ -1907,6 +1907,12 @@ pre {
   border-radius: 50%;
   width: 200px;
 }
+.img-fullwidth {
+  text-align: center;
+}
+.img-fullwidth img {
+  width: 100%;
+}
 .pink-text {
   color: #e6197c;
 }
