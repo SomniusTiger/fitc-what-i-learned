@@ -39,7 +39,7 @@
 // Colors
 
 @pink:			hsla(331, 80%, 50%, 1);
-@white:			hsla(0, 0%, 97%, 1);
+@white:			hsla(0, 0%, 98%, 1);
 @black:			hsla(0, 0%, 3%, 1);
 
 @light-pink: 	lighten(@pink, 20%);
@@ -89,6 +89,7 @@ body {
 	background-color: @white;
 	color: @black;
 	text-align: left;
+	text-rendering: optimizeLegibility;
 	border-top: solid 2px @pink;
 }
 
@@ -145,13 +146,36 @@ pre {
 // LAYOUT //
 ////////////
 
+// Images
+
+.image-container {
+	width: 100%;
+
+	img {
+		display: inline-block;
+		margin-right: 1em;
+		width: 25%;
+
+		&.last {
+			margin-right: 0;
+		}
+	}
+}
+
+.image-icon {
+	img {
+		border-radius: 50%;
+		width: 200px;
+	}
+}
+
 ////////////
 // MODULE //
 ////////////
 
 // Text Modifiers
 
-.red-text {
+.pink-text {
 	color: @pink;
 }
 

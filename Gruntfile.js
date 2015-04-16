@@ -5,7 +5,7 @@ module.exports = function(grunt) {
         watch: {
             css: {
                 files: ['style/*.less'],
-                tasks: ['clean', 'less', 'cssmin', 'cachebreaker'],
+                tasks: ['clean', 'less', 'cssmin'],
                 options: {
                     spawn: false
                 }
